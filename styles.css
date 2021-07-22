@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #272341;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+p,a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+a,a:link,a:hover,a:visited,a:active {
+  text-decoration: none;
+}
+
+.text-color-main {
+  color: #00cdac;
+}
+
+/* SECTIONS */
+section {
+  padding: 5rem 0rem;
+}
+
+.section-title {
+  margin: 0px;
+  margin-bottom: 4.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* BUTTONS */
+.cta-btn {
+  display: inline-block;
+  position: relative;
+  padding: 0.8rem;
+  font-weight: bold;
+}
+
+.cta-btn--hero {
+  border: 2px solid #00cdac;
+  color: #00cdac;
+}
+
+.cta-btn--hero:hover {
+  color: #fff;
+  background-color: #00cdac;
+}
+
+.cta-btn--resume {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.cta-btn--resume:hover {
+  background-color: #fff;
+  color: #00cdac;
+  text-decoration: none;
+}
+
+/* HERO */
+#hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  font-weight: 400;
+  color: #272341;
+  padding: 0rem 5.6rem;
+}
+
+.hero-title {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+  text-align: left;
+}
+
+.hero-cta {
+  display: flex;
+}
+
+.hero-cta a {
+  font-size: 1rem;
+}
+
+/* ABOUT */
+#about {
+  background-color: #02aab0;
+  background-image: linear-gradient(
+    to right top,
+    #02aab0,
+    #00b3b2,
+    #00bcb1,
+    #00c5b0,
+    #00cdac
+  );
+  color: #fff;
+  height: 100%;
+  border-top: 0px;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  padding-bottom: 10%;
+}
+
+.about-wrapper {
+  padding-bottom: 5rem;
+}
+
+#about .image {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img-fluid{
+  width: 50%;
+}
+
+.info-text {
+  text-align: left;
+}
+
+.tech-list {
+  list-style-type: none;
+  text-align: left;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  padding: 0 0 50px 0;
+  font-size: 1rem;
+}
+
+#footer{
+  text-align: center;
+  padding: 100px;
+  background-color: #333333;
+  color: white;
+}
+
+.contact-icon{
+  color: #fff;
+  margin: 0% 3% 5%;
+}
+
+.contact-icon:hover{
+  color: #00b3b2;
+}
+
+.pro{
+  color: #00b3b2;
+  font-size: 1.6rem;
+}
+
+.pro:hover{
+  color: #fff;
+}
+
+.copyright{
+  font-size: 1.6rem;
+}
